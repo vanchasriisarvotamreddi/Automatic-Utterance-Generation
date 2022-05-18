@@ -1,0 +1,79 @@
+{
+  "data":[
+     {
+          "label":"question1",
+          "ques":"Where can I access my service contracts available for renewal if I am a registered Customer with Extreme?",
+          "ans":"Extreme Portal - Service contract access is located under the Support Portal drop down menu or under the Support Services section of the www.extremenetworks.com page. If you are authenticated to the Extreme Portal you will be directed to the Extreme Portal login/registration page."
+     },
+     {
+          "label":"question2",
+          "ques":"What Extreme Networks service contract renewals are visible to an Extreme Networks End-User on the EasyRenew portal?",
+          "ans":"Only Extreme Networks service contract renewal quotes for existing service contracts that have reached their expiration date and neither the Extreme Networks Distributor nor Reseller have taken any action on the renewal."
+     },
+     {
+          "label":"question3",
+          "ques":"What if I do not see my service contract renewals?",
+          "ans":"There are a couple of reasons why this is occurring.   1) you have not logged in as an authenticated user in the Extreme Portal; 2) there are no service contract renewals pending at this time; 3) the renewal is currently being works by your Distributor or Reseller, or 4) Your renewal does not qualify for the EasyRenew program."
+     },
+     {
+          "label":"question4",
+          "ques":"How do I as an End-User purchase a support contract with Extreme Networks?",
+          "ans":"Direct purchase of Extreme Works support contracts can be done on the Extreme portal by credit card only. This option is only available for Extreme Networks service contract renewal quotes for existing service contracts that have reached their expired date and where neither the Extreme Networks Distributor nor Reseller have taken any action on the renewal."
+      },
+      {
+          "label":"question5",
+          "ques":"What if I want to still purchase the service contract renewal through my Reseller?",
+          "ans":"End-Users may still contact their Reseller to purchase the service renewal."
+     },
+     {
+          "label":"question6",
+          "ques":"What if I want to see non-standard term or pricing options?",
+          "ans":"Any requests for revisions outside of the 1 year (default), 3 year, or 5 year term options should be directed to your Reseller. If you are unable to contact your Reseller, send an email to the Extreme Networks Sales team for further assistance at auto-renewal-escalations@extremenetworks.com."
+      },
+      {
+          "label":"question7",
+          "ques":"What if there is an error on the quote?",
+          "ans":"Contact the Extreme Networks Sales team for correction at auto-renewal-escalations@extremenetworks.com."
+      },
+      {
+          "label":"question8",
+          "ques":"Which credit cards are accepted?",
+          "ans":"American Express, MasterCard, Visa, Discover"
+      },
+      {
+          "label":"question9",
+          "ques":"Who do I contact for issues with credit card payments",
+          "ans":"CREDIT&COLLECTIONS@extremenetworks.com"
+      },
+      {
+          "label":"question10",
+          "ques":"When paying with a credit card, where do I see my payment receipt?",
+          "ans":"The payment receipt will be emailed to you once the transaction is complete."
+      },
+      {
+          "label":"question11",
+          "ques":"When paying with a credit card, where do I see my invoice?",
+          "ans":"The invoice is available on the customer portal once the transaction is complete."
+      },
+      {
+          "label":"question12",
+          "ques":"How do I cancel my service?",
+          "ans":"Services are non-cancellable during the service term.  A customer may elect to discontinue auto-renewal at anytime by un-checking the “auto renew” box in the renewal system.  For additional information, please refer to the   Direct Customer Terms of Support, available at www.extremenetworks.com/company/legal/."
+      },
+      {
+          "label":"question13",
+          "ques":"How do I change the auto renew selection?",
+          "ans":"If you saved your credit card and checked the “auto renew” check box, your service will renew automatically and charge the saved card on file. To change this option, un-check the “auto renew” box."
+      },
+      {
+          "label":"question14",
+          "ques":"When the renewal is accepted and ordered what is the timeframe of receipt of renewal confirmation?",
+          "ans":"In the case of the end-user paying by credit card, it will take approximately 6-9 hours for the renewal contract activation letter (welcome letter) e-mail to go out. Please note, you will also get your receipt for paying by credit card within an hour."
+      },
+      {
+          "label":"question15",
+          "ques":"Where do I go for help with questions about EasyRenew?",
+          "ans":"auto-renewal-escalations@extremenetworks.com"
+      }
+    ]
+}

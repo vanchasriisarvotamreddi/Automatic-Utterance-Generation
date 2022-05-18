@@ -1,0 +1,166 @@
+version: '3.0'
+nlu:
+- intent: question1
+  examples: |
+    - How do I access my service contracts based on subscription?
+    - How do I submit service contract renewal via VirtualEssential if I am a registered customer with Extreme?
+    - Where can I access my service contract available for renewal if I am a registered Customer with Extreme?
+    - Where can I access my service contracts to renew if I am a registered Customer with Extreme?
+    - How do I access my Service contract available for renewal if I am a registered Customer with Extreme?
+    - How do I view my Service Contracts available for renewal if I am a registered customer with Extreme?
+    - How can I access my service contracts available for renewal if I am a registered customer with Extreme?
+    - Where can I access my services contracts available for renewal if I am a registered Customer with Extreme?
+    - Where can I find my service contract available for renewal?
+    - How do I access my service contracts available for renewal if I am a registered customer?
+- intent: question2
+  examples: |
+    - How does an Extreme Networks End-User's service contract renewal view?
+    - What Extreme Networks service contract renewals are visible for an Extreme Networks end-user on EasyRenew portal?
+    - What services contract renewals are visible to an Extreme Networks End-User on the EasyRenew portal?
+    - What is the Extreme Networks service contract renewals visible to an Extreme Networks End-User on the EasyRenew portal?
+    - What Extreme Networks service contract renewals are visible to an Extreme Networks end-user on EasyRenew portal?
+    - What Extreme Networks service contract renewal are visible to an Extreme Networks End-User on the EasyRenew portal?
+    - What is an Extreme Networks end-user's service contract renewal for on an EasyRenew portal?
+- intent: question3
+  examples: |
+    - What happens if I have no service contract renewal?
+    - What if I don't see service contract renewals?
+    - What happens if you don't see the renewal of a service contract?
+    - Does my service contract renewal work?
+    - Why do I not see my service contract renewals?
+    - What happens if the service contract renewal is not seen?
+    - How do I update my service contract renewal if my contract is no longer active?
+    - What if I don't see my service contract renewals?
+    - What if I don't see the renewal of my service contract renewal?
+    - What happens if you not see your service contract renewals?
+- intent: question4
+  examples: |
+    - How do I purchase and upgrade a support package from Extreme Networks?
+    - How do I buy Ultimate Support contract with Extreme Networks?
+    - How do I purchase support contract with Extreme Networks?
+    - What are the basics of buying a Support Contract with Extreme Networks?
+    - What does it mean to buy a support contract from Extreme Networks?
+    - How do I sign up for support with Extreme Networks?
+    - How do I purchase a support contract for Extreme Networks?
+    - What is the best way to purchase a support contract with Extreme Networks?
+    - How do I buy a support contract with Extreme Networks?
+    - How do I buy support contract for Extreme Networks?
+- intent: question5
+  examples: |
+    - How do you purchase Service Contract renewal for third party service broker who doesn't own the renewal?
+    - What if I want to sell my service contract renewal through my reseller?
+    - How do you buy service contract renewal through your resellers?
+    - What do I do if I want to purchase the service contract renewal through my Reseller?
+    - What is the possibility to purchase a service contract through a reseller?
+    - Can I sell another service contract through my reseller?
+    - I want to buy service contract renewal through my Reseller, what is the best way?
+    - What if I want to buy the service contract renewal through my reseller?
+- intent: question6
+  examples: |
+    - What if I want an additional non-standard term or pricing option?
+    - What if I want non standard term or pricing options?
+    - What if I want to see non standard term options?
+    - What should I do if I want to see non-standard term or pricing options?
+    - When should I see different terms or pricing options?
+    - What if I want non-standard term or pricing options? What if I want to see Non-standard term or pricing options?
+    - What if I want to see non standard term pricing options?
+    - What should I expect of Non-standard term pricing options?
+    - What if I want to see non standard term or pricing options?
+- intent: question7
+  examples: |
+    - What if there is an error in the quote?
+    - Why am I seeing an error on a quote?
+    - What if there's an error in a quoted message?
+    - What if there are errors in the quote?
+    - What if there is an error in quote or quote?
+    - What happens to a quote if there is an error in the quote?
+    - How can I fix an error in my quote?
+    - What is the most important thing to change when you create an error in a quote?
+    - What will happen if there is an error in the quote?
+    - How do I erase an error that happened to the quotation?
+- intent: question8
+  examples: |
+    - Which credit card is accepted?
+    - What credit cards are accepted?
+    - Which are the accepted credit cards?
+    - Which credit cards are accepted by MasterCard?
+- intent: question9
+  examples: |
+    - How do I contact my bank for any credit card issue?
+    - Who do I contact if I have concerns about an issues in the credit card payment process?
+    - How do I get help for a credit card issue?
+    - How can I contact a credit card issuer?
+    - How can I contact a credit card company?
+    - Who do I contact for credit card payment problems?
+    - Who do I contact if I have a credit card issue?
+    - Who do I contact when I have credit card problems?
+    - How do I contact to resolve the issue of your credit card?
+    - Is there a place I can contact before paying with my credit card?
+- intent: question10
+  examples: |
+    - Will you be able to get my payment receipt when I pay with credit cards?
+    - Where do you see your payment receipt?
+    - How do I get a receipt of payment from credit card that I paid?
+    - My credit card is not credited. What is my credit card number? Where is the payment receipt?
+    - What is my credit card payment receipt number and where do I get one?
+    - Can I see my receipt when paying with credit cards?
+    - How can you see your payment receipt when you have a credit card?
+    - If I'm using credit card, how do I see my receipt?
+    - When paying with your credit card where can I see your payment receipt?
+    - When paying with credit card do you see my payment receipt?
+- intent: question11
+  examples: |
+    - Where do I see my invoice when using credit card?
+    - I pay with a credit card and don't see an invoice where I put it?
+    - How do I find payment information on my credit card?
+    - When paying with a credit card are your invoices gone? Where are they?
+    - Where do I see the invoice when I buy it from a credit card?
+    - How can I see the invoice I received when I used my credit card or Paypal?
+    - When shopping online with a credit card, how can I see my invoices?
+    - How do I find my invoice when using my credit card?
+    - How do I view invoice data in credit cards?
+    - How can I get my invoice number when I pay with a credit card?
+- intent: question12
+  examples: |
+    - How do I cancel a cell phone?
+    - How do I cancel my tnpn account?
+    - Can a person cancel their service?
+    - How do I cancel a subscription?
+    - How do you cancel an existing free-for-all phone line?
+    - How do I get a refund for my old network?
+    - How do you cancel your existing Internet service?
+    - Can I cancel my service?
+    - How can I cancel my mobile call?
+- intent: question13
+  examples: |
+    - How do I alter auto renewal as part of the registration process?
+    - How do I change a selection of Auto renew?
+    - What is the auto renew option?
+    - How do I change auto renewal?
+    - How do you change auto renew from old time?
+    - How do I change an auto renew selection?
+    - How do I choose auto renewal?
+    - How do I change auto renew menu?
+    - How do I change auto renew or auto reset the choice?
+    - How do I change auto renew selection?
+- intent: question14
+  examples: |
+    - Why the renewal is accepted and ordered? What is the timeframe of receipt of renewal confirmation?
+    - When renewal confirmation is ordered and accepted for the first time what is the timeframe of receipt of renewal confirmation?
+    - After purchase of a renewal, what is the timeframe for the receipt of renewal confirmation?
+    - When the renewal is accepted and ordered what is the time frame of receipt of renewal confirmation?
+    - When a renewal is accepted and ordered what is the timeframe of receipt of renewal confirmation?
+    - When the renewal is accepted and ordered, what is the timeframe of receipt of renewal confirmation?
+    - When an order or renewal is accepted what is the timeframe?
+- intent: question15
+  examples: |
+    - Where can I get advice on EasyRenew?
+    - Where should I find best support with easyrenew?
+    - Where can I get support if I have trouble with EasyRenew?
+    - Where can I get quick answers for my questions about EasyRenew?
+    - Where can I get support for EasyRenew?
+    - Where can I get information about EasyRenew?
+    - Where can I find a good resource for quick answers regarding EasyRenew?
+    - Is there any actual online source for questions about easyrenew?
+    - Where can I get real-time answer information for questions about EasyRenew?
+    - Where can you find answers to your question about EasyRenew?
