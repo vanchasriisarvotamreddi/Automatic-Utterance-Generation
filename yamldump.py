@@ -1,6 +1,7 @@
 
 from yaml.resolver import BaseResolver
 import yaml
+#importing the data in para variable and conversion in to yaml format
 from run import para as data
 
 #print(data)
@@ -12,15 +13,16 @@ def represent_literal(dumper, data):
         BaseResolver.DEFAULT_SCALAR_TAG, data, style="|"
     )
 
-
+#writing the data in to nlu.yml file
 def create_yml(path, data):
     with open(path, "w") as ymls:
+        #dumping the data in to yaml format
         yaml.dump(data, ymls, default_flow_style=False, sort_keys=False, width=700)
-
 
 import json 
 
-yaml.add_representer(AsLiteral, represent_literal)        
+yaml.add_representer(AsLiteral, represent_literal)   
+#preparing data to convert to yaml     
 def toformat(data):
     temp=[]
     for each in data:  

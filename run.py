@@ -7,16 +7,18 @@ def set_seed(seed):
   if torch.cuda.is_available():
     torch.cuda.manual_seed_all(seed)
 set_seed(42)
+#using pretrained T5 model for paraphrase generation
 model = T5ForConditionalGeneration.from_pretrained('ramsrigouthamg/t5_paraphraser')
 tokenizer = T5Tokenizer.from_pretrained('ramsrigouthamg/t5_paraphraser')
-
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print ("device ",device)
 model = model.to(device)
+#loading the json file with question answer pairs
 f = open('faqdata.json',encoding="utf8")
 jsondata = json.load(f)
 para=[]
 x=1
+#Below for loop is used to iterate and take each question as input
 for q in jsondata['data']:
     intent="question"+str(x)
     x+=1
@@ -49,5 +51,6 @@ for q in jsondata['data']:
         print("{}: {}".format(i, final_output))
         new_output=final_output.replace("’","'")
         temp.append(new_output)
+    #para is the list of dictionaries contains actual question and its paraphrases
     para.append({"intent":intent,"examples":temp})
 print(para)

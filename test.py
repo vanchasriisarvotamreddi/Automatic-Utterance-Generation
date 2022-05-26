@@ -32,6 +32,7 @@ ans=[]
 confidence_scores=[]
 qno=[]
 confidence=[]
+#Below code is to convert the data in result in to csv for better understanding
 for i in result:
   ques.append(i['bot_ans']['text'])
   ans.append(i['ans'])
