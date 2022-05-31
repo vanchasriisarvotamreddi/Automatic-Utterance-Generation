@@ -18,7 +18,7 @@ f = open('faqdata.json',encoding="utf8")
 jsondata = json.load(f)
 para=[]
 x=1
-#Below for loop is used to iterate and take each question as input
+#Below for loop is used to iterate data and to give each question as input to model
 for q in jsondata['data']:
     intent="question"+str(x)
     x+=1
@@ -35,6 +35,7 @@ for q in jsondata['data']:
         top_k=120,
         top_p=0.98,
         early_stopping=True,
+        #num_return_sequences is used to obtain desired no.of paraphrases 
         num_return_sequences=10
     )
 
